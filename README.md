@@ -137,6 +137,6 @@ Framework yang digunakan: **React / Vue / Angular**
 
 ## 🙌 Author
 
-Nama: *(isi nama kamu)*  
-Email: *(isi email kamu)*  
+Nama: IIP SHOIFUDDIN  
+Email: shoifuddin.arkademy@gmail.com  
 Role: Fullstack Developer Candidate
