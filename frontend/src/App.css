@@ -1,0 +1,19 @@
+/**
+ * App Styles - Minimal styling for Material UI compatibility
+ * Most styling is now handled by Material UI components
+ */
+
+/* Additional global styles if needed */
+* {
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default App styling - MUI handles this */
+.App {
+  /* Removed - now handled by MUI ThemeProvider */
+}

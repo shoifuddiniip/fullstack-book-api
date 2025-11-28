@@ -1,0 +1,104 @@
+Berikut ringkasan lengkap tentang apa yang harus kamu lakukan untuk mengerjakan tes ini, berdasarkan isi dokumen yang kamu upload 
+
+Case Study - Fullstack Develope…
+
+:
+
+✅ Rangkuman Tugas Tes Fullstack Developer
+1. Backend (Golang + go-chi v5)
+
+Kamu harus membuat RESTful API sistem manajemen buku dengan endpoint berikut:
+
+Endpoint Wajib
+
+GET /books
+Mengembalikan daftar semua buku.
+
+GET /books/{id}
+Mengambil detail buku berdasarkan ID.
+
+POST /books
+Menambah buku baru.
+Contoh body JSON:
+
+{
+  "title": "Book Title",
+  "author": "Author Name",
+  "published_year": 2023
+}
+
+
+PUT /books/{id}
+Memperbarui informasi buku.
+
+DELETE /books/{id}
+Menghapus buku berdasarkan ID.
+
+Persyaratan Teknis Backend
+
+Gunakan go-chi versi v5 untuk routing.
+
+Data hanya disimpan di memory (slice/map).
+
+Response harus JSON.
+
+Struktur kode harus modular (pisahkan handler, model, router).
+
+Buat custom middleware LoggerMiddleware untuk mencatat:
+
+method,
+
+path,
+
+response time.
+
+Tambahkan komentar pada setiap fungsi.
+
+Gunakan Singleton Pattern jika ingin bonus (untuk instance storage).
+
+Terapkan prinsip DRY (untuk error handling & response formatting).
+
+2. Frontend (ReactJS / VueJS / AngularJS)
+
+Kamu harus membuat halaman antarmuka yang berinteraksi dengan API backend di atas.
+
+Kewajiban Frontend
+
+Menampilkan daftar buku.
+
+Form untuk tambah buku.
+
+Halaman/form untuk edit buku.
+
+Tombol delete.
+
+Tampilan harus user-friendly.
+
+Sertakan alasan kenapa desain yang dibuat mudah digunakan user.
+
+Bonus Frontend (Opsional)
+
+Gunakan komponen penting dari framework dan jelaskan kenapa penting.
+
+3. Ketentuan Pengerjaan
+
+Buat file start.txt → upload sebagai tanda mulai mengerjakan.
+
+Buat file end.txt → upload sebagai tanda sudah selesai.
+
+Simpan seluruh code di GitHub repository.
+
+Setelah selesai, kirim email ke recruitment@sismedika.com
+ dengan link repository GitHub.
+
+4. Durasi
+
+⏳ Total waktu pengerjaan: 3 hari.
+
+Jika kamu mau, saya bisa bantu:
+✅ membuat struktur folder backend
+✅ contoh boilerplate API Golang + go-chi
+✅ desain frontend (React/Vue/Angular)
+✅ contoh LoggerMiddleware
+✅ penjelasan user-friendly UI
+➡️ Tinggal bilang framework mana yang ingin kamu pakai!
